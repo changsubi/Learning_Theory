@@ -24,7 +24,9 @@ $P(A_j|B) = \frac{P(A_j)P(B|A_j)}{\sum_{i} P(A_i)P(B|A_i)}$
 The king comes from a family of two children. What is the probability that his sibling is female?
    
 Independence of two events:   
-$P(A \cap B) = P(A)P(B|A) = P(A)P(B)$
+$P(A \cap B) = P(A)P(B|A) = P(A)P(B)$   
+Conditional independence:   
+conditional independence, given C, is defined as independence under the probability law $P(\dot|C)$
 
 
 
