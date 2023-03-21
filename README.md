@@ -37,7 +37,7 @@ Permutations :
 number of ways of ordering n elements : $n(n-1)(n-2)\cdots = n!$   
 Combinations :   
 number of k element subsets of a given n element set : $\frac{n!}{k!(n-k)!}$   
-$(a+b)^n = \sum_{k=0}^{n}{(\frac{n!}{k!(n-k)!})a^(n-k)b^k}$
+$(a+b)^n = \sum_{k=0}^{n} (\frac{n!}{k!(n-k)!})a^(n-k)b^k$
 
 
 
