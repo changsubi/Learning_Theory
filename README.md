@@ -26,7 +26,7 @@ The king comes from a family of two children. What is the probability that his s
 Independence of two events:   
 $P(A \cap B) = P(A)P(B|A) = P(A)P(B)$   
 Conditional independence:   
-conditional independence, given C, is defined as independence under the probability law $P(\dot|C)$
+conditional independence, given C, is defined as independence under the probability law $P(\bullet|C)$
 
 
 
