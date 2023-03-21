@@ -82,7 +82,10 @@ then, H(X,Y,Z) = H(X) + H(Y|X) + H(Z|X,Y)
 Mutual Information :   
 measure of the amount of common information(correlation) that one variable contains about the other random variable   
 For (X,Y) ~ p(x,y), the mutual information I(X;Y) is   
-$I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x,y)}{p(x)p(y)}) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x|y)}{p(x)})$
+$I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x,y)}{p(x)p(y)}) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x|y)}{p(x)})$   
+$= -\sum_{x \in X} \sum_{y \in Y} p(x,y)p(x) + \sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x|y))$   
+= H(X) - H(X|Y) = H(Y) - H(Y|X)
+
 
 
 
