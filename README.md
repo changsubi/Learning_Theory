@@ -69,7 +69,7 @@ Can be thought of as the remaining uncertainty in Y after observing X (X : datas
    
 Chain Rule :   
 For (X,Y) ~ p(x,y), H(X,Y) = H(X) + H(Y|X)   
-
+proof > fdf
 
 
 
