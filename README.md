@@ -64,7 +64,11 @@ $H(X,Y,Z) = -\sum_{x \in X} \sum_{y \in Y} \sum_{z \in Z} p(x,y,z)log(p(x,y,z))$
 Conditional Entropy :   
 Extend H(X) to a random variable given another   
 If (X,Y) ~ p(x,y) then the conditional entropy H(Y|X) is   
-$H(Y|X) = \sum_{x \in X} p(x)H(Y|X=x) = -\sum_{x \in X} p(x) \sum_{y \in Y} p(y|x)log(p(y|x)) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$
+$H(Y|X) = \sum_{x \in X} p(x)H(Y|X=x) = -\sum_{x \in X} p(x) \sum_{y \in Y} p(y|x)log(p(y|x)) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$   
+Can be thought of as the remaining uncertainty in Y after observing X (X : dataset)
+   
+Chain Rule :   
+For (X,Y) ~ p(x,y), H(X,Y) = H(X) + H(Y|X)   
 
 
 
