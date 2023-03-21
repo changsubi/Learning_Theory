@@ -44,7 +44,12 @@ Information theory is the scientific study of the quantification, storage, and c
 Something that reduces uncertainty about something
    
 Uncertainty Measure   
-Let X be a random variable taking values over a finite set $X = {x_1, x_2, x_3, \cdots, x_M}$ referred to as a "alphabet" in information theory.
+Let X be a random variable taking values over a finite set $X = {x_1, x_2, x_3, \cdots, x_M}$ referred to as a "alphabet" in information theory.   
+high uncertainty : hard to expect what is going to heppen   
+low uncertainty : easy to expect what is going to heppen   
+   
+Entropy :   
+$H(X) = -E_X[logp(X)] = \sum_{x\inX} p(x)logp(x)$
 
 
 
