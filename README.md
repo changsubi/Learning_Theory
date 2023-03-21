@@ -13,5 +13,6 @@ P(A|B) = P(A $\cap$ B) / P(B)
 only when P(B)>0
    
 Partition of sample space into $A_1, A_2, A_3, ... $   
-have $P(A_i)$, for every i
-have $P(B|A_i)$, for every i
+have $P(A_i)$, for every i   
+have $P(B|A_i)$, for every i   
+$P(B) = \sum_{i}^{} P(A_i)P(B|A_i)$
