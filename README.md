@@ -60,7 +60,11 @@ $H(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x,y))$
 that is the uncertainty in (X,Y)   
 just consider Z:=(X,Y) as a new random variable. then it is no different from H(Z)   
 $H(X,Y,Z) = -\sum_{x \in X} \sum_{y \in Y} \sum_{z \in Z} p(x,y,z)log(p(x,y,z))$
-
+   
+Conditional Entropy :   
+Extend H(X) to a random variable given another   
+If (X,Y) ~ p(x,y) then the conditional entropy H(Y|X) is   
+$H(Y|X) = \sum_{x \in X} p(x)H(Y|X=x) = -\sum_{x \in X} p(x) \sum_{y \in Y} p(y|x)log(p(y|x)) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$
 
 
 
