@@ -56,7 +56,10 @@ $H(X)  \leq log|X|$
 Joint Entropy :   
 Extend H(X) to a pair of random variables   
 H(X,Y) of a pair discrete RVs (X,Y) with a joint pmf p(x,y) is   
-$H(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x,y))$
+$H(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x,y))$   
+that is the uncertainty in (X,Y)   
+just consider Z:=(X,Y) as a new random variable. then it is no different from H(Z)   
+$H(X,Y,Z) = -\sum_{x \in X} \sum_{y \in Y} \sum_{z \in Z} p(x,y,z)log(p(x,y,z))$
 
 
 
