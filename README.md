@@ -32,5 +32,6 @@ conditional independence, given C, is defined as independence under the probabil
 Counting:   
 Number of license with 2 letters followed by 3 digits:   
 $26 \times 26 \times 10 \times 10 \times 10$
-
+but, if repetition is prohibited then, $26 \times 25 \times 10 \times 9 \times 8$   
+Permutations : Number of ways of ordering n elements : $n(n-1)(n-2)\cdots$ 
 
