@@ -19,5 +19,5 @@ have $P(B|A_i)$, for every i
 $P(B) = \sum_{i} P(A_i)P(B|A_i)$
    
 Bayes' rule:   
-$P(A_j|B) = P(A_j)P(B|A_j) / \sum_{i} P(A_i)P(B|A_i)$
+$P(A_j|B) = \frac{P(A_j)P(B|A_j)}{\sum_{i} P(A_i)P(B|A_i)}$
  
