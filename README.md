@@ -4,4 +4,4 @@ Learning_Theory
 Event : a subset of the sample space
 > probability is assigned to events   
 Axioms :   
-> nonnegativity : P(A) \geq 0
+> nonnegativity : P(A) $$\geq$$ 0
