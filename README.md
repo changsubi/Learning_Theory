@@ -27,7 +27,10 @@ Independence of two events:
 $P(A \cap B) = P(A)P(B|A) = P(A)P(B)$   
 Conditional independence:   
 conditional independence, given C, is defined as independence under the probability law $P(\bullet|C)$
+   
 
-
+Counting:   
+Number of license with 2 letters followed by 3 digits:   
+$26 \times 26 \times 10 \times 10 \times 10$
 
 
