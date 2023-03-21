@@ -1,3 +1,5 @@
 Learning_Theory
 ======================
-# 1. 마크다운에 관하여
+# Probability
+event : a subset of the sample space
+> probability is assigned to events
