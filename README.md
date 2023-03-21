@@ -1,2 +1,3 @@
-# Learning_Theory
+Learning_Theory
 ======================
+# 1. 마크다운에 관하여
