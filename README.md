@@ -38,8 +38,13 @@ number of ways of ordering n elements : $n(n-1)(n-2)\cdots = n!$
 Combinations :   
 number of k element subsets of a given n element set : $\frac{n!}{k!(n-k)!}$   
 $(a+b)^n = \displaystyle\sum_{k=0}^{n} \frac{n!}{k!(n-k)!}a^{n-k}b^k$
-
-
+   
+# Information
+Information theory is the scientific study of the quantification, storage, and communication of information.   
+Something that reduces uncertainty about something
+   
+Uncertainty Measure   
+Let X be a random variable taking values over a finite set $X = {x_1, x_2, x_3, \cdots, x_M}$ referred to as a "alphabet" in information theory.
 
 
 
