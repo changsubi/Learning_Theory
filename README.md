@@ -69,7 +69,12 @@ Can be thought of as the remaining uncertainty in Y after observing X (X : datas
    
 Chain Rule :   
 For (X,Y) ~ p(x,y), H(X,Y) = H(X) + H(Y|X)   
-proof > fdf
+proof >   
+$H(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x,y))$   
+$= -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x)p(y|x))$   
+$= -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x)) - \sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$   
+$= -\sum_{x \in X} p(x)log(p(x)) -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$   
+= H(X) + H(Y|X)
 
 
 
