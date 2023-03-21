@@ -1,5 +1,7 @@
 Learning_Theory
 ======================
 # Probability
-event : a subset of the sample space
+Event : a subset of the sample space
 > probability is assigned to events
+Axioms :   
+> nonnegativity : P(A)\geq0
