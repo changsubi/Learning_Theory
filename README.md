@@ -75,7 +75,9 @@ $= -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x)p(y|x))$
 $= -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x)) - \sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$   
 $= -\sum_{x \in X} p(x)log(p(x)) -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(y|x))$   
 = H(X) + H(Y|X)
-
+then, H(X,Y,Z) = H(X) + H(Y|X) + H(Z|X,Y)
+   
+<img src="https://user-images.githubusercontent.com/100255173/226596981-4a3df660-8fd2-4589-8065-c92249e9ae47.png" width="450px" height="200px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
 
 
 
