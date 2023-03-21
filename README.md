@@ -84,8 +84,9 @@ measure of the amount of common information(correlation) that one variable conta
 For (X,Y) ~ p(x,y), the mutual information I(X;Y) is   
 $I(X;Y) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x,y)}{p(x)p(y)}) = \sum_{x \in X} \sum_{y \in Y} p(x,y)log(\frac{p(x|y)}{p(x)})$   
 $= -\sum_{x \in X} \sum_{y \in Y} p(x,y)p(x) + \sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x|y))$   
-= H(X) - H(X|Y) = H(Y) - H(Y|X)
-
+= H(X) - H(X|Y) = H(Y) - H(Y|X)   
+<img src="https://user-images.githubusercontent.com/100255173/226598823-37bfb92a-a7d3-4443-b6fb-1a8874860e5d.png" width="450px" height="200px" title="px(픽셀) 크기 설정" alt="RubberDuck"></img><br/>
+   
 
 
 
