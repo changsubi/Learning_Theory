@@ -49,7 +49,7 @@ high uncertainty : hard to expect what is going to heppen
 low uncertainty : easy to expect what is going to heppen   
    
 Entropy :   
-$H(X) = -E_X[log p(X)] = \sum_{x \in X} p(x)log p(x)$
+$H(X) = -E_X[log (p(X))] = \sum_{x \in X} p(x)log (p(x))$
 
 
 
