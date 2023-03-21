@@ -50,9 +50,13 @@ low uncertainty : easy to expect what is going to heppen
    
 Entropy :   
 $H(X) = -E_X[log (p(X))] = -\sum_{x \in X} p(x)log (p(x))$   
-$H(X) \geq 0$ because $-log(p(x)) \geq 0$   
+$H(X) \geq 0$ because $-log(p(x)) \geq 0$ always   
 $H(X)  \leq log|X|$
-
+   
+Joint Entropy :   
+Extend H(X) to a pair of random variables   
+H(X,Y) of a pair discrete RVs (X,Y) with a joint pmf p(x,y) is   
+$H(X,Y) = -\sum_{x \in X} \sum_{y \in Y} p(x,y)log(p(x,y))$
 
 
 
