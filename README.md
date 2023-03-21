@@ -51,7 +51,7 @@ low uncertainty : easy to expect what is going to heppen
 Entropy :   
 $H(X) = -E_X[log (p(X))] = -\sum_{x \in X} p(x)log (p(x))$   
 $H(X) \geq 0$ because $-log(p(x)) \geq 0$   
-$H(X)  \leq log||$
+$H(X)  \leq log|X|$
 
 
 
