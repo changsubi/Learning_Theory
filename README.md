@@ -29,7 +29,6 @@ $P(A \cap B) = P(A)P(B|A) = P(A)P(B)$
 Conditional independence:   
 conditional independence, given C, is defined as independence under the probability law $P(\bullet|C)$
    
-
 Counting:   
 Number of license with 2 letters followed by 3 digits:   
 $26 \times 26 \times 10 \times 10 \times 10$
@@ -37,8 +36,8 @@ but, if repetition is prohibited then, $26 \times 25 \times 10 \times 9 \times 8
 Permutations :   
 number of ways of ordering n elements : $n(n-1)(n-2)\cdots = n!$   
 Combinations :   
-number of k element subsets of a given n element set : $\frac{n!}{k!(n-k)!}$
-
+number of k element subsets of a given n element set : $\frac{n!}{k!(n-k)!}$   
+$(a+b)^n = \sum_{k=0}{n}(\frac{n!}{k!(n-k)!})a^(n-k)b^k$
 
 
 
